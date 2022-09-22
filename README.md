@@ -1,23 +1,8 @@
-# repo_template
-This section should contain an overview of your repository.
-For example, this is a general-purpose template repository for 
-all projects in Ma Lab.
-
-## Get Started
-To use this template for your own project, select the 
-green button titled "Use this Template". By default, 
-the owner should be "NYUMaLab". Give your repository a 
-descriptive name, separated by underscores instead of spaces
-e.g. `my_project_name`. [Click here for a guide on how to use
-Github Repo Templates](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+# space_number
 
 # Directory
-Every repository should have a directory for files
-describing the structure of the repository and a high-level
-overview of the contents
 
-```
-repo_template
+space_number
 │   README.md 
 │
 └─── analysis : all analysis files
@@ -28,33 +13,36 @@ repo_template
 │   │
 │   └───processed_data
 │   │
-│   └───src : analysis code goes here
+│   └───src : analysis code
 │
 │   
 └─── experiment : all experiment files
 │   │
 │   └───raw_data : unmodified data -- DO NOT EDIT
 │   │
-│   └───src : experiment code goes here
+│   └───src : experiment code 
 │
 └─── resources : tutorials, presentations, papers, posters, etc.
 
 ```
 
 # Installation
-Instructions for how to install the necessary files
+Requires BADS to fit model; download here: https://github.com/lacerbi/bads
+
 
 # Usage (Experiment)
-Instructions for how to run experiments
+Run v2 Space_Number_FullExpt.ipynb for the full experiment; runs in jupyter notebook
 
 # Usage (Analysis)
-Instructions for how to run analysis
+aggregate_summ_stats.ipynb yields descriptive statistics
+For modelling, see "Iterative distance model" -- run scripts in order from A -> C 
+A is the main modelfitting code that calls B_specify model and C_modelpredictions
 
 ## Demo(s)
-Description of demos
+Example video of iterative distance model is provided as .mp4 file in Demos
 
 # Authors and Acknowledgements
-Your name and other collaborators here
+Jenn Lee and Wei Ji Ma 
 
 # License
 Contact lab about licensing code
